@@ -1,7 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
-import { useInView } from 'framer-motion'
+import { motion, useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
 import { Calendar, MapPin, Clock, Users, ChevronLeft, ChevronRight } from 'lucide-react'
 
@@ -26,7 +25,7 @@ function CalendarComponent({ events }: { events: typeof upcomingEvents }) {
   
   // Parse event dates from the events array
   const eventDates = events.map((event) => {
-    // Parse date string like "10-11 Jan 2025"
+    // Parse date string like "10-11 Jan 2026"
     const dateMatch = event.date.match(/(\d+)-(\d+)\s+(\w+)\s+(\d+)/)
     if (dateMatch) {
       const startDay = parseInt(dateMatch[1])

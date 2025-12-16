@@ -27,7 +27,7 @@ const itemVariants = {
     scale: 1,
     transition: {
       duration: 0.6,
-      ease: [0.22, 1, 0.36, 1], // Custom easing for smooth animation
+      ease: [0.22, 1, 0.36, 1],
     },
   },
 }

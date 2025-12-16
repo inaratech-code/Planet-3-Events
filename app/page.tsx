@@ -11,7 +11,6 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   useEffect(() => {
-    // Smooth scroll polyfill for older browsers
     if (typeof window !== 'undefined') {
       document.documentElement.style.scrollBehavior = 'smooth'
     }

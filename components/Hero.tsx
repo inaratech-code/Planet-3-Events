@@ -33,8 +33,6 @@ export default function Hero() {
         <div className="absolute inset-0 bg-black/40" />
       </div>
       
-      {/* Animated Background Overlay */}
-      <div className="absolute inset-0 animated-gradient opacity-30 z-0" />
 
       {/* Floating particles effect (desktop only) */}
       <div className="hidden lg:block absolute inset-0 overflow-hidden z-[1]">
